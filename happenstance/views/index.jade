@@ -1,0 +1,4 @@
+extends layout
+
+block content
+  div(ng-repeat="event in events | orderBy: 'startTime'") {{event.name}} - start time: {{event.startTime}}, end time: {{event.endTime}}

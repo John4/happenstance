@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    title Happenstance Calendar
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js")
+    script(src="javascripts/angularApp.js")
+  body(ng-app="happenstance" ng-controller="MainController")
+    block content
